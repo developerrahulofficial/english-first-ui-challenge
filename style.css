@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@200;500;700&display=swap');
+
+/* font-family: 'Manrope', sans-serif; */
+
+:root {
+   --very-dark-grayish-blue: hsl(217, 19%, 35%);
+   --desaturated-dark-blue: hsl(214, 17%, 51%);
+   --grayish-blue: hsl(212, 23%, 69%);  
+   --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--very-dark-grayish-blue);
+}
+
+html, body {
+    width: 100%;
+    height: auto;
+    background-color: var(--light-grayish-blue);
+}
+
+body {
+
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h2 {
+    font-size: 1.2rem; 
+    font-weight: 700;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 25rem;
+    border-radius: 10px;
+}
+
+.card-image {
+    overflow: hidden;
+    height: 15rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-main {
+    padding: 42px 32px 0;
+}
+
+.card-content > p {
+    
+    font-size: 1.1rem;
+    padding: 20px 0;
+    line-height: 1.5rem;
+
+}
+
+.card-user {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info > p:first-child {
+      font-weight: 700;
+}
+
+.user-info > p:last-child {
+    font-weight: 100;
+}
+
+
